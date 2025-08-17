@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy for Glinta</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9fafb;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #111827;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #1f2937;
+            margin-top: 30px;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 5px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        strong {
+            color: #111827;
+        }
+        .highlight {
+            background-color: #eef2ff;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 500;
+            color: #4338ca;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Privacy Policy for Glinta</h1>
+        <p><strong>Last Updated:</strong> [Ngày bạn đăng tải chính sách này, ví dụ: October 26, 2023]</p>
+        
+        <p>
+            Welcome to Glinta! We are committed to protecting your privacy. Our philosophy is simple: 
+            <strong>your data is yours, and it should stay with you.</strong> This Privacy Policy explains 
+            how our browser extension ("Glinta" or the "Extension") handles your information.
+        </p>
+
+        <h2>1. The Core Principle: Local-First Data</h2>
+        <p>
+            Glinta is designed as a <span class="highlight">local-first</span> application. This means that <strong>100% of your data is stored on your own computer</strong> within your browser's secure storage area. 
+            This includes:
+        </p>
+        <ul>
+            <li>Images you capture (screenshots, selected areas, saved images).</li>
+            <li>Metadata associated with your captures (titles, notes, source URLs).</li>
+            <li>Your collections and organizational structure.</li>
+            <li>Extension settings.</li>
+        </ul>
+        <p>
+            We do not have a server to store your data. We do not collect, transmit, view, or sell any of your personal content. It never leaves your device.
+        </p>
+
+        <h2>2. Information We Do Not Collect</h2>
+        <p>
+            To be perfectly clear, Glinta <strong>DOES NOT</strong> collect any personally identifiable information (PII). We do not collect:
+        </p>
+        <ul>
+            <li>Your name, email address, or any other contact information.</li>
+            <li>Your browsing history.</li>
+            <li>Usage analytics or telemetry data about how you interact with the Extension.</li>
+            <li>IP addresses or location data.</li>
+        </ul>
+
+        <h2>3. How the Extension Works and Required Permissions</h2>
+        <p>
+            Glinta requires certain browser permissions to function correctly. Here’s why we need them and how they are used:
+        </p>
+        <ul>
+            <li>
+                <strong><code>storage</code>:</strong> This permission is essential to save your captured items, collections, and settings directly on your local device.
+            </li>
+            <li>
+                <strong><code>activeTab</code> & <code>scripting</code>:</strong> These permissions are used to perform the core functions of the extension when you activate it. This includes capturing a visible area of the page, enabling the area selection tool, and retrieving the page title. The extension only runs on the active tab and only when you explicitly interact with it (by clicking the icon, using a shortcut, or the context menu).
+            </li>
+            <li>
+                <strong><code>contextMenus</code>:</strong> This allows us to provide you with convenient shortcuts, like "Quick Save" or "Save this image", when you right-click on a webpage or an image.
+            </li>
+            <li>
+                <strong><code>host_permissions</code> ("&lt;all_urls&gt;"):</strong> This permission sounds broad, but it is necessary for the scripting permission to work on any website you want to capture content from. Glinta does not automatically read or modify any website. It only acts on a page when you decide to use its features.
+            </li>
+        </ul>
+
+        <h2>4. Data Security</h2>
+        <p>
+            Your data is as secure as your browser. We rely on the built-in security mechanisms of your web browser (like Google Chrome) to protect the locally stored data. If you uninstall the extension, all associated data stored by Glinta will be permanently deleted by the browser.
+        </p>
+        
+        <h2>5. Third-Party Services</h2>
+        <p>
+            Glinta does not integrate with any third-party services, analytics platforms, or advertising networks.
+        </p>
+
+        <h2>6. Changes to This Privacy Policy</h2>
+        <p>
+            We may update this Privacy Policy in the future if the extension's functionality changes. If we do, we will notify you of any significant changes, for example, by updating the "Last Updated" date at the top of this policy. We encourage you to review this policy periodically.
+        </p>
+
+        <h2>7. Contact Us</h2>
+        <p>
+            If you have any questions or concerns about this Privacy Policy, please feel free to contact us at: <a href="mailto:your-email-address@example.com">[Địa chỉ email hỗ trợ của bạn]</a>.
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; [Năm hiện tại] Glinta. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
